@@ -1,4 +1,4 @@
-FROM        golang:onbuild
+FROM golang:onbuild
 
 WORKDIR /go/src/github.com/alexanderbrunner/docker-go-examples/mygoservice
 COPY mygoservice .
